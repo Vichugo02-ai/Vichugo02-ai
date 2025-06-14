@@ -1,4 +1,4 @@
-## ¡Hola! Soy Victor 👋
+## ¡Hola! Soy Victor 👋 👨‍💻👩‍🎓
 ¡Bienvenido a mi perfil de GitHub! Aquí puedes encontrar algunos de mis proyectos y enlaces a recursos interesantes.
 
 ## Proyectos de otros usuarios que me inspiran:
@@ -13,7 +13,7 @@
     * **Repositorio:** [Enlace al repositorio](https://github.com/HanSolo/Medusa)
     * **Autor:** [HanSolo](https://github.com/HanSolo)
 
- [Visualización de gráficos de objetos. JavaFX]
+👨‍💻 [Visualización de gráficos de objetos. JavaFX]
     * **Repositorio:** [Enlace al repositorio](https://github.com/Nurtak/ObjectGraphVisualization)
     * **Autor:** [shathor](https://github.com/shathor)
 
