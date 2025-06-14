@@ -10,8 +10,7 @@
 
 [A JavaFX library for Gauges.]
     * **Repositorio:** [Enlace al repositorio](https://github.com/HanSolo/Medusa)
-    * **Autor:** [HanSolo
-HanSolo](https://github.com/HanSolo)
+    * **Autor:** [HanSolo](https://github.com/HanSolo)
 
     
 <!--
