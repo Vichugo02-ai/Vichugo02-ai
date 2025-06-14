@@ -18,6 +18,9 @@
     * **Repositorio:** [Enlace al repositorio](https://github.com/Nurtak/ObjectGraphVisualization)
     * **Autor:** [shathor](https://github.com/shathor)
 
+👨‍💻 [🎧 🎼 The MOST ADVANCED JavaFX Media Player]
+    * **Repositorio:** [Enlace al repositorio](https://github.com/goxr3plus/XR3Player)
+    * **Autor:** [goxr3plus](https://github.com/goxr3plus)
 
     
 <!--
