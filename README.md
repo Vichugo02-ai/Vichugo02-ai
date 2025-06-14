@@ -13,6 +13,11 @@
     * **Repositorio:** [Enlace al repositorio](https://github.com/HanSolo/Medusa)
     * **Autor:** [HanSolo](https://github.com/HanSolo)
 
+ [Visualización de gráficos de objetos. JavaFX]
+    * **Repositorio:** [Enlace al repositorio](https://github.com/Nurtak/ObjectGraphVisualization)
+    * **Autor:** [shathor](https://github.com/shathor)
+
+
     
 <!--
 **Vichugo02-ai/Vichugo02-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
