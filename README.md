@@ -1,5 +1,7 @@
-## Hi there 👋
+## ¡Hola! Soy Victor 👋
+¡Bienvenido a mi perfil de GitHub! Aquí puedes encontrar algunos de mis proyectos y enlaces a recursos interesantes.
 
+## Proyectos de otros usuarios que me inspiran:
 <!--
 **Vichugo02-ai/Vichugo02-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
