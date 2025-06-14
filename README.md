@@ -9,8 +9,9 @@
     * **Repositorio:** [Enlace al repositorio](https://github.com/FXyz/FXyz)
     * **Autor:** [Abhinay Agarwal](https://github.com/abhinayagarwal)
 
-🤠🔫[A JavaFX library for Gauges.]
+🤠🔫[A JavaFX library for Gauges.] / [A JavaFX library containing tiles that can be used for dashboards.]
     * **Repositorio:** [Enlace al repositorio](https://github.com/HanSolo/Medusa)
+    * **Repositorio:** [Enlace al repositorio](https://github.com/HanSolo/tilesfx)
     * **Autor:** [HanSolo](https://github.com/HanSolo)
 
 👨‍💻 [Visualización de gráficos de objetos. JavaFX]
