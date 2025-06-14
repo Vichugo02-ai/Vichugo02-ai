@@ -4,7 +4,7 @@
 ## Proyectos de otros usuarios que me inspiran:
 
 **Herramienta Útil para Desarrollo:**
-[A JavaFX 3D Visualization and Component Library.]
+✨[A JavaFX 3D Visualization and Component Library.]
     * **Repositorio:** [Enlace al repositorio](https://github.com/FXyz/FXyz)
     * **Autor:** [Abhinay Agarwal](https://github.com/abhinayagarwal)
 
