@@ -15,6 +15,7 @@ Entrega1Semana3Subgrupo3/
     │   ├─ Producto.java
     │   └─ Vendedor.java
     └─ GenerateInfoFiles.java   <-- (tiene main)
+    └─ GenerateInfoFiles.java <-- (tiene metodo main)
 data/
  ├─ productos.csv               <-- (salida)
  ├─ vendedores.csv              <-- (salida)
