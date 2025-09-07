@@ -14,8 +14,8 @@ Entrega1Semana3Subgrupo3/
     ├─ model/
     │   ├─ Producto.java
     │   └─ Vendedor.java
-    └─ GenerateInfoFiles.java 
+    └─ GenerateInfoFiles.java   <-- (tiene main)
 data/
- ├─ productos.csv
- ├─ vendedores.csv
- └─ ventas/
+ ├─ productos.csv               <-- (salida)
+ ├─ vendedores.csv              <-- (salida)
+ └─ ventas/                     <-- (salida: 1 archivo por vendedor)
