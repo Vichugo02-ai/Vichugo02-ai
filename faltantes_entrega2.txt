@@ -1,0 +1,96 @@
+FALTANTES_ENTREGA2 (Semana 5) – Proyecto: Generación y Reportes de Ventas
+================================================================================
+
+FECHA: 20/09/2025
+EQUIIPO: Subgrupo 3
+REPO: https://github.com/Vichugo02-ai/Vichugo02-ai
+
+1) ALCANCE LOGRADO HASTA LA ENTREGA 2
+-------------------------------------
+- Clase GenerateInfoFiles (main) que crea datos de prueba coherentes:
+  * productos.csv   → ID;Nombre;Precio
+  * vendedores.csv  → TipoDocumento;NúmeroDocumento;Nombres;Apellidos
+  * ventas/*.csv    → 1ª línea: TipoDoc;NúmeroDoc, luego: IDProducto;Cantidad;
+- Clase Main (main) que:
+  * Lee los archivos de entrada (UTF-8; separador ;).
+  * Calcula total recaudado por vendedor y cantidades por producto.
+  * Genera reportes ordenados descendentes:
+    - reporte_vendedores.csv  → NombreCompleto;TotalRecaudado
+    - reporte_productos.csv   → NombreProducto;PrecioUnitario;CantidadTotal
+- Mensajes de éxito/error por consola.
+- Buenas prácticas: POO (Producto, Vendedor), sin interacción con usuario, rutas relativas.
+
+2) PENDIENTES / FALTANTES PARA LA ENTREGA FINAL
+-----------------------------------------------
+Funcionales:
+- [ ] Tolerar múltiples archivos de ventas por vendedor y consolidarlos (EXTRA a).
+- [ ] Mecanismo de logging a archivo (log.txt) con niveles (INFO/WARN/ERROR).
+- [ ] Validaciones ampliadas (EXTRA c):
+      * [ ] Detección formal de líneas con formato incorrecto y conteo de errores por archivo.
+      * [ ] Rechazo explícito de precios negativos en productos (actual: se ignoran; reportar).
+      * [ ] Rechazo explícito de cantidades negativas o cero (actual: se ignoran; reportar).
+      * [ ] Reportar IDs de producto inexistentes encontrados en ventas (actual: warning en consola).
+- [ ] Soporte para archivo(s) serializados (EXTRA b) – opcional.
+- [ ] Inclusión de encabezados en los reportes si el docente lo solicita (actual: desactivado).
+
+Calidad / Documentación:
+- [ ] JavaDoc completo a nivel de clases y métodos públicos.
+- [ ] README actualizado con instrucciones de Entrega 2 (ejecución / salida).
+- [ ] Comentarios de borde (edge cases) en el código y decisión de diseño documentada.
+- [ ] Pruebas manuales escritas (CHECKLIST) y, opcionalmente, tests unitarios básicos (JUnit).
+
+Empaquetado / Entrega:
+- [ ] Script/indicaciones para limpiar/generar datos desde cero: ejecutar GenerateInfoFiles → Main.
+- [ ] Verificación de apertura en Excel (UTF-8 con BOM) documentada en README.
+- [ ] Archivo de conclusiones para la Entrega 3 (pendiente).
+
+3) SUPUESTOS TOMADOS
+--------------------
+- El separador de columnas es ';' (CSV “europeo”), conforme al enunciado.
+- Codificación UTF-8. Para Excel, se puede escribir BOM (\uFEFF) opcionalmente.
+- Los archivos de entrada están en la carpeta 'data/' junto al ejecutable.
+- El documento del vendedor puede tener ceros a la izquierda y NO se parsea a long (se mantiene como String).
+- El nombre del archivo de ventas no es la fuente de verdad; se confía en la 1ª línea (TipoDoc;NúmeroDoc).
+- Si se encuentra una línea inválida de venta, se ignora (no detiene el proceso) y se reporta en consola.
+
+4) RIESGOS / LIMITACIONES ACTUALES
+----------------------------------
+- Si Excel abre sin importar como UTF-8, podrían verse mal tildes/ñ.
+- Sin tests automatizados aún; dependemos de pruebas manuales.
+- La detección de errores se hace por consola; sin log persistente.
+- No se soportan aún archivos serializados (EXTRA b).
+
+5) PLAN DE CIERRE (RUTA A ENTREGa 3)
+------------------------------------
+- Semana 1:
+  * Implementar logger a archivo (java.util.logging) y contador de errores por archivo.
+  * Añadir encabezados a reportes (opción por constante CONFIG_HEADER = true).
+- Semana 2:
+  * Soporte multi-archivo por vendedor (acumulación por clave Tipo;Número).
+  * Validaciones ampliadas y reporte de incoherencias a log.txt con resumen final.
+- Semana 3:
+  * (Opcional) Serialización de catálogos/ventas.
+  * JavaDoc completo + README final + conclusion.txt.
+  * Pruebas manuales con datos extremos y revisión de formato final.
+
+6) CÓMO EJECUTAR (RESUMEN)
+--------------------------
+1. Ejecutar 'GenerateInfoFiles' (no solicita input) → genera data de ejemplo en 'data/'.
+2. Ejecutar 'Main' (no solicita input) → genera:
+   - data/reporte_vendedores.csv
+   - data/reporte_productos.csv
+3. Revisar consola para avisos (⚠) y errores.
+4. Abrir CSV en Google Sheets/LibreOffice o importar como UTF-8 en Excel.
+
+7) ARCHIVOS GENERADOS/USADOS (RUTAS)
+------------------------------------
+- Entrada:
+  * data/productos.csv
+  * data/vendedores.csv
+  * data/ventas/*.csv
+- Salida:
+  * data/reporte_vendedores.csv
+  * data/reporte_productos.csv
+  * (pendiente) data/log.txt
+
+Fin del documento.
