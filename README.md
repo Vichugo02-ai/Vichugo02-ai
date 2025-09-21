@@ -22,7 +22,7 @@ data/
  └─ ventas/                     <-- (salida: 1 archivo por vendedor)
 
 
--------------------------------------------------------------------------------
+*-------------------------------------------------------------------------------
 Presentado por: 
 Martha Isabel Trujillo Agudelo 
 Edinson Fabian Ramirez Amaya 
