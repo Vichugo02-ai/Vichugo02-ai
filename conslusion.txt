@@ -21,9 +21,5 @@ Dificultades
 - Validar integridad referencial (IDs de productos y vendedores) y gestionar casos faltantes sin abortar el proceso.
 - Curva de aprendizaje de Git: diferencias entre working directory, staging y commit; confusión al agregar rutas correctas (p. ej., src/.../GenerateInfoFiles.java).
 
-Mejoras futuras (opcionales)
-- Centralizar salidas en /data/reportes/ y registrar logs en archivo.
-- Soportar múltiples archivos por vendedor y estadísticas adicionales (ticket promedio, top-N productos).
-- Añadir pruebas unitarias para parsers y agregadores.
 
 
