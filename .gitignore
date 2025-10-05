@@ -1,1 +1,5 @@
 /bin/
+/data/ventas/
+reporte_*.csv
+/data/reportes/
+*.log

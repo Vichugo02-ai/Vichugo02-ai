@@ -26,3 +26,4 @@ Mejoras futuras (opcionales)
 - Soportar múltiples archivos por vendedor y estadísticas adicionales (ticket promedio, top-N productos).
 - Añadir pruebas unitarias para parsers y agregadores.
 
+

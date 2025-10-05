@@ -16,7 +16,6 @@ Generador y procesador de archivos CSV para simular ventas y producir dos report
 
 ## Estructura del proyecto
 ---------------------------------------------------------------------------
-
 Entrega1Semana3Subgrupo3
 ├─ .gitignore
 ├─ README.md

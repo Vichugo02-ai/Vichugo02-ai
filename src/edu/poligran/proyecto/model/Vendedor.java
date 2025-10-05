@@ -32,3 +32,4 @@ public class Vendedor {
         return tipoDocumento + ";" + numeroDocumento + ";" + nombres + ";" + apellidos;
     }
 }
+
