@@ -32,8 +32,7 @@ Entrega1Semana3Subgrupo3
 └─ data
    ├─ productos.csv          ← (lo genera GenerateInfoFiles)
    ├─ vendedores.csv         ← (lo genera GenerateInfoFiles)
-   ├─ ventas                 ← (carpeta; adentro <TipoDoc>_<NumeroDoc>.csv)
-   └─ reportes               ← (opcional para salidas si lo configuras)
+   
 
 
 *-------------------------------------------------------------------------------
