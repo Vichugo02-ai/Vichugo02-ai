@@ -1,25 +1,40 @@
 ## ¡Hola! Somos el Subgrupo 3 👋 👨‍💻👩‍🎓 # 📊 Entrega 1 – Semana 3 
-Proyecto académico de **Conceptos Fundamentales de Programación** – Politécnico Grancolombiano.  
-Generación de archivos planos CSV de prueba para vendedores, productos y ventas.  
-Esta es la **primera entrega (Semana 3)**: generación de datos pseudoaleatorios.
+Proyecto académico de **Conceptos Fundamentales de Programación**
+# Conceptos Fundamentales de Programación – Entrega 3 Final (Semanas 7–8)
+ – Politécnico Grancolombiano.  
+Generador y procesador de archivos CSV para simular ventas y producir dos reportes:
+1) **Vendedores por dinero recaudado** (desc).
+2) **Productos por cantidad vendida** (desc).
 
+> **Nota:** Este repositorio mantiene **dos clases con `main`**. No se solicita input al usuario en ninguna ejecución.
+
+---
+
+## Requisitos
+- **Java 8+** (probado con Temurin/Adoptium 1.8/11).
+- IDE recomendado: **Eclipse** .
+
+## Estructura del proyecto
 ---------------------------------------------------------------------------
 
-Entrega1Semana3Subgrupo3/
- ├─ .project
- ├─ .classpath
- ├─ .settings/
- ├─ src/
- │    └─ edu.poligran.proyecto/
-    ├─ model/
-    │   ├─ Producto.java
-    │   └─ Vendedor.java
-    └─ GenerateInfoFiles.java   <-- (tiene main)
-    └─ GenerateInfoFiles.java <-- (tiene metodo main)
-data/
- ├─ productos.csv               <-- (salida)
- ├─ vendedores.csv              <-- (salida)
- └─ ventas/                     <-- (salida: 1 archivo por vendedor)
+Entrega1Semana3Subgrupo3
+├─ .gitignore
+├─ README.md
+├─ conslusion.txt
+├─ src
+│  └─ edu
+│     └─ poligran
+│        └─ proyecto
+│           ├─ Main.java                 ← (procesa CSV y genera reportes)
+│           ├─ GenerateInfoFiles.java   ← (genera CSV de prueba)
+│           └─ model
+│              ├─ Producto.java
+│              └─ Vendedor.java
+└─ data
+   ├─ productos.csv          ← (lo genera GenerateInfoFiles)
+   ├─ vendedores.csv         ← (lo genera GenerateInfoFiles)
+   ├─ ventas                 ← (carpeta; adentro <TipoDoc>_<NumeroDoc>.csv)
+   └─ reportes               ← (opcional para salidas si lo configuras)
 
 
 *-------------------------------------------------------------------------------

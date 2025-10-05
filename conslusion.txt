@@ -1,0 +1,28 @@
+
+---
+
+## `conslusion.txt`
+
+```text
+Aprendizajes
+- Separación de responsabilidades en dos programas reproducibles: uno para generación de datos (sin entrada del usuario) y otro para el procesamiento y reporte.
+- Lectura/escritura de archivos CSV con Java (NIO), manejo de rutas y creación de directorios de salida.
+- Agregaciones y ordenamiento: suma de ventas por vendedor y acumulado de unidades por producto.
+- Manejo robusto de errores: registro de líneas inválidas sin detener el flujo, tolerando variantes como “;” final.
+- Compatibilidad con herramientas ofimáticas: inclusión de BOM UTF-8 para abrir reportes en Excel sin problemas de codificación.
+
+Aplicaciones profesionales
+- Generación de reportes operativos a partir de archivos planos en procesos ETL sencillos.
+- Auditoría y conciliación de datos de ventas provenientes de múltiples fuentes.
+- Base para evolucionar a persistencia (JDBC/ORM), serialización binaria y/o servicios REST que produzcan los mismos reportes.
+
+Dificultades
+- Alinear formatos entre generador y procesador (encabezados, separadores, normalización decimal).
+- Validar integridad referencial (IDs de productos y vendedores) y gestionar casos faltantes sin abortar el proceso.
+- Diseñar rutas relativas portables y permisos de escritura en distintos entornos (Windows/Linux/IDE/CLI).
+
+Mejoras futuras (opcionales)
+- Centralizar salidas en /data/reportes/ y registrar logs en archivo.
+- Soportar múltiples archivos por vendedor y estadísticas adicionales (ticket promedio, top-N productos).
+- Añadir pruebas unitarias para parsers y agregadores.
+
