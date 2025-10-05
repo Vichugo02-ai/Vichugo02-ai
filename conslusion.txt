@@ -19,7 +19,7 @@ Aplicaciones profesionales
 Dificultades
 - Alinear formatos entre generador y procesador (encabezados, separadores, normalización decimal).
 - Validar integridad referencial (IDs de productos y vendedores) y gestionar casos faltantes sin abortar el proceso.
-- Diseñar rutas relativas portables y permisos de escritura en distintos entornos (Windows/Linux/IDE/CLI).
+- Curva de aprendizaje de Git: diferencias entre working directory, staging y commit; confusión al agregar rutas correctas (p. ej., src/.../GenerateInfoFiles.java).
 
 Mejoras futuras (opcionales)
 - Centralizar salidas en /data/reportes/ y registrar logs en archivo.
