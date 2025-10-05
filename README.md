@@ -1,6 +1,6 @@
-## ¡Hola! Somos el Subgrupo 3 👋 👨‍💻👩‍🎓 # 📊 Entrega 1 – Semana 3 
+## ¡Hola! Somos el Subgrupo 3 👋 👨‍💻👩‍🎓 # 📊 Entrega 3 Final (Semanas 7–8)
 Proyecto académico de **Conceptos Fundamentales de Programación**
-# Conceptos Fundamentales de Programación – Entrega 3 Final (Semanas 7–8)
+# Conceptos Fundamentales de Programación 
  – Politécnico Grancolombiano.  
 Generador y procesador de archivos CSV para simular ventas y producir dos reportes:
 1) **Vendedores por dinero recaudado** (desc).
@@ -38,7 +38,9 @@ Entrega1Semana3Subgrupo3
 
 
 *-------------------------------------------------------------------------------
+
 Presentado por: 
+
 Martha Isabel Trujillo Agudelo 
 Edinson Fabian Ramirez Amaya 
 Juan Serna Aristizabal 
