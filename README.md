@@ -17,23 +17,23 @@ Generador y procesador de archivos CSV para simular ventas y producir dos report
 ## Estructura del proyecto
 ---------------------------------------------------------------------------
 Entrega1Semana3Subgrupo3
-├─ .gitignore
-├─ README.md
-├─ conslusion.txt
-├─ src
-│  └─ edu
-│     └─ poligran
-│        └─ proyecto
-│           ├─ Main.java                 ← (procesa CSV y genera reportes)
-│           ├─ GenerateInfoFiles.java   ← (genera CSV de prueba)
-│           └─ model
-│              ├─ Producto.java
-│              └─ Vendedor.java
-└─ data
-   ├─ productos.csv          ← (lo genera GenerateInfoFiles)
-   ├─ vendedores.csv         ← (lo genera GenerateInfoFiles)
-   
-
+├─ ⚙️ .gitignore
+├─ 📘 README.md
+├─ 📝 conslusion.txt
+├─ 📁 src
+│  └─ 📁 edu
+│     └─ 📁 poligran
+│        └─ 📁 proyecto
+│           ├─ ☕ Main.java                 ← (procesa CSV y genera reportes)
+│           ├─ ☕ GenerateInfoFiles.java   ← (genera CSV de prueba)
+│           └─ 📁 model
+│              ├─ ☕ Producto.java
+│              └─ ☕ Vendedor.java
+└─ 🗂️ data
+   ├─ 🧾 productos.csv          ← (lo genera GenerateInfoFiles)
+   ├─ 🧾 vendedores.csv         ← (lo genera GenerateInfoFiles)
+   └─ 📁 ventas                 ← (carpeta; adentro <TipoDoc>_<NumeroDoc>.csv)
+  
 
 *-------------------------------------------------------------------------------
 
